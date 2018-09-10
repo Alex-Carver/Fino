@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'Century';
+    src: url('Century-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century';
+    src: url('Century-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+video{
+    width: 100%;
+    height: 100%;
+   
+}
+
+p{
+font-family: 'Open Sans', sans-serif;
+}
+
+h2.display-2{
+    font-family: 'Century', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    font-size: 2em;
+ 
+}
+
+h1.display-3{
+    font-family: 'Century', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffbf00;
+    margin-bottom: 20px;
+}
+
+
+h2.display-4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+h2.display-5{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    color: #ffbf00;
+    margin-bottom: 80px;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*--------Nav Bar-------*/
+.navbar-brand{
+  width: 40px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: transparent!important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fixed-top.scrolled {
+  background-color: #000 !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #ffbf00;
+}
+
+/*----Section One Our Story-------*/
+section#ourStory{
+  padding-top: 50px;
+}
+
+/*----Section One Our Story-------*/
+section#premiumTequilas{
+
+    margin-top: -1px;
+    padding-top: 50px;
+    background-image: url('../img/background.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    min-height: 1200px;
+    background-attachment: fixed;
+}
+
+h3.card-title-1{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    color: #e6e6e6;
+    margin-bottom: 20px;
+}
+
+h3.card-title-2{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    color: #cd7f32;
+    margin-bottom: 20px;
+}
+
+h3.card-title-3{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    color: #ffbf00;
+    margin-bottom: 20px;
+}
+
+h4.sub-card-title-1{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #e6e6e6;
+}
+
+h4.sub-card-title-2{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #cd7f32;
+}
+
+h4.sub-card-title-3{
+    font-family: 'Century', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #ffbf00;
+}
+
+.card{
+  background:rgba(0,0,0,0.5);
+  padding:10px;
+  border:none;
+  height: 490px;
+}
+
+p.card-text{
+      color: #fff;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ffbf00;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.contact-form {
+    background: transparent;
+    margin-top: 40px;
+    width: 70%;
+    border: 1px solid #ffbf00;
+    color: #fff;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-image img{
+  width: 60px;
+
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #ffbf00;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: transparent;
+    font-weight: 600;
+    color: #fff;
+     border:1px solid #ffbf00;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    border:1px solid #ffbf00;
+}
+
+input{
+  color:#fff;
+}
+
+
+section#contact{
+    background: #000;
+    height: 700px;
+    padding-top: 20px;
+    margin-top: -1px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #000;
+    min-height: 100px;
+    padding: 10px 0px 25px 0px;
+    margin-top: -1px;
+    border-top: 1px solid #fff;
+}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+
+
+
+
+
+.social_footer_ul { display:inline-block; list-style-type:none;  }
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+
+
+
