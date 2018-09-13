@@ -258,7 +258,6 @@ h3.display-3{
 }
 
 .hovereffect h3 {
-  text-transform: uppercase;
   color: #fff;
   font-family: 'Century', sans-serif;
   text-align: center;
@@ -268,6 +267,7 @@ h3.display-3{
   padding: 0.5em 0;
   background-color: transparent;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .hovereffect h3:after {
